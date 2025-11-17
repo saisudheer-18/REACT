@@ -1,0 +1,76 @@
+/* Main container */
+.counter-card {
+  width: 350px;
+  margin: 60px auto;
+  padding: 25px;
+  background: #f7f9fc;
+  border-radius: 16px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Title */
+.counter-card h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* Informational text */
+.counter-description {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Count badge */
+.count-display {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 20px auto;
+  padding: 12px 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  display: inline-block;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons container */
+.btn-group {
+  margin-top: 25px;
+}
+
+/* Generic button style */
+.counter-btn {
+  padding: 12px 22px;
+  margin: 8px;
+  font-size: 17px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.25s ease;
+  font-weight: 600;
+}
+
+/* Increment button */
+.increment-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.increment-btn:hover {
+  background-color: #43a047;
+  transform: translateY(-3px);
+}
+
+/* Decrement button */
+.decrement-btn {
+  background-color: #e53935;
+  color: white;
+}
+
+.decrement-btn:hover {
+  background-color: #c62828;
+  transform: translateY(-3px);
+}
